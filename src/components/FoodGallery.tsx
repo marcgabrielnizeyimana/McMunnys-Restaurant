@@ -161,7 +161,7 @@ export const FoodGallery: React.FC<FoodGalleryProps> = ({ lang }) => {
 
             <div className="p-6 sm:p-8 bg-[#181614] text-left">
               <div className="flex items-center justify-between gap-4 mb-2">
-                <span className="text-xs font-bold uppercase tracking-widest text-[#E05A36]">
+                <span className="text-xs font-bold uppercase tracking-widest text-[#D4A745]">
                   {activeItem.category[lang]}
                 </span>
                 <span className="text-xs text-[#A0988E]">McMunnys Culinary Showcase</span>

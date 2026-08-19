@@ -32,7 +32,7 @@ export const Logo: React.FC<LogoProps> = ({
       {/* Official McMunnys Logo Image */}
       <div 
         id="logo-image-wrapper"
-        className="relative flex items-center justify-center rounded-xl overflow-hidden shadow-lg shadow-black/40 border border-white/10 p-0.5 bg-[#181614] group-hover:border-[#E05A36]/60 transition-all duration-300 group-hover:scale-105"
+        className="relative flex items-center justify-center rounded-xl overflow-hidden shadow-lg shadow-black/40 border border-[#C89B3C]/30 p-1 bg-[#181614] group-hover:border-[#D4A745] transition-all duration-300 group-hover:scale-105"
       >
         <img
           src="/logo.png"
@@ -49,9 +49,9 @@ export const Logo: React.FC<LogoProps> = ({
             <span className={`font-display font-black tracking-tight text-white ${textSizes[size]}`}>
               McMUNNYS
             </span>
-            <span className="h-2 w-2 rounded-full bg-[#E05A36] animate-pulse"></span>
+            <span className="h-2 w-2 rounded-full bg-[#C89B3C] animate-pulse"></span>
           </div>
-          <span className="text-[10px] sm:text-[11px] tracking-[0.22em] uppercase font-bold text-[#E8A238] mt-1">
+          <span className="text-[10px] sm:text-[11px] tracking-[0.22em] uppercase font-bold text-[#D4A745] mt-1">
             Restaurant &bull; Erickson, MB
           </span>
           {showTagline && (
