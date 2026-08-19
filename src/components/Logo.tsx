@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import logoImg from '../assets/logo-512.png';
 
 interface LogoProps {
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -13,11 +14,13 @@ export const Logo: React.FC<LogoProps> = ({
   showTagline = false,
   variant = 'full'
 }) => {
+  const [imgSrc, setImgSrc] = useState<string>(logoImg || '/logo.png');
+
   const imageSizes = {
-    sm: 'h-9 w-auto',
-    md: 'h-11 sm:h-12 w-auto',
-    lg: 'h-14 sm:h-16 w-auto',
-    xl: 'h-20 sm:h-24 w-auto'
+    sm: 'h-9 w-auto min-w-[36px]',
+    md: 'h-11 sm:h-12 w-auto min-w-[44px]',
+    lg: 'h-14 sm:h-16 w-auto min-w-[56px]',
+    xl: 'h-20 sm:h-24 w-auto min-w-[80px]'
   };
 
   const textSizes = {
@@ -25,6 +28,14 @@ export const Logo: React.FC<LogoProps> = ({
     md: 'text-xl sm:text-2xl',
     lg: 'text-2xl sm:text-3xl',
     xl: 'text-3xl sm:text-4xl'
+  };
+
+  const handleImageError = () => {
+    if (imgSrc !== '/logo.png') {
+      setImgSrc('/logo.png');
+    } else if (imgSrc !== '/assets/images/logo.png') {
+      setImgSrc('/assets/images/logo.png');
+    }
   };
 
   return (
@@ -35,10 +46,11 @@ export const Logo: React.FC<LogoProps> = ({
         className="relative flex items-center justify-center rounded-xl overflow-hidden shadow-lg shadow-black/40 border border-[#C89B3C]/30 p-1 bg-[#181614] group-hover:border-[#D4A745] transition-all duration-300 group-hover:scale-105"
       >
         <img
-          src="/logo.png"
+          src={imgSrc}
           alt="McMunnys Restaurant Official Logo"
-          className={`${imageSizes[size]} object-contain rounded-lg`}
+          className={`${imageSizes[size]} object-contain rounded-lg aspect-square`}
           loading="eager"
+          onError={handleImageError}
         />
       </div>
 
