@@ -11,8 +11,8 @@ export const testimonials: Testimonial[] = [
     location: 'Erickson, MB',
     rating: 5,
     content: {
-      en: 'McMunnys is our weekly Friday dinner tradition! The steaks are always grilled to perfection, the burger portions are enormous, and the coffee is without question the best in town. Wonderful, friendly staff.',
-      fr: 'McMunnys est notre tradition du vendredi soir ! Les steaks sont toujours parfaitement grillés, les portions de burgers sont généreuses et le café est sans conteste le meilleur de la région. Personnel adorable.'
+      en: 'McMunnys\'s is our weekly Friday dinner tradition! The steaks are always grilled to perfection, the burger portions are enormous, and the coffee is without question the best in town. Wonderful, friendly staff.',
+      fr: 'McMunnys\'s est notre tradition du vendredi soir ! Les steaks sont toujours parfaitement grillés, les portions de burgers sont généreuses et le café est sans conteste le meilleur de la région. Personnel adorable.'
     },
     date: 'August 2026',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop'

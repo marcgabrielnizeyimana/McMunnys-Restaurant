@@ -101,7 +101,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ lang }) => {
               {/* Email item */}
               <a
                 id="contact-direct-email"
-                href="mailto:mcmunnys@gmail.com"
+                href="mailto:midnightannies@gmail.com"
                 className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#D4A745]/50 transition-all group"
               >
                 <div className="p-3 rounded-xl bg-[#D4A745]/15 text-[#D4A745] group-hover:scale-110 transition-transform">
@@ -110,7 +110,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ lang }) => {
                 <div>
                   <p className="text-xs text-[#A0988E] uppercase font-bold tracking-wider">{t.contact.email}</p>
                   <p className="text-sm sm:text-base font-bold text-white group-hover:text-[#D4A745] transition-colors mt-0.5">
-                    mcmunnys@gmail.com
+                    midnightannies@gmail.com
                   </p>
                 </div>
               </a>
@@ -135,13 +135,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ lang }) => {
                 </p>
                 <a
                   id="contact-facebook-link"
-                  href="https://www.facebook.com/mcmunnys/"
+                  href="https://www.facebook.com/search/top?q=Midnight%20Annie%27s"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-[#1877F2]/15 text-[#1877F2] hover:bg-[#1877F2] hover:text-white border border-[#1877F2]/30 transition-all duration-200 text-xs font-bold uppercase tracking-wider shadow-md"
                 >
                   <Facebook className="w-4 h-4" />
-                  <span>Facebook &bull; /mcmunnys</span>
+                  <span>Facebook &bull; McMunnys</span>
                 </a>
               </div>
 

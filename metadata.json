@@ -1,6 +1,6 @@
 {
-  "name": "McMunnys Restaurant",
-  "description": "Official website for McMunnys Restaurant in Erickson, MB. Featuring homestyle dining, delicious lunch & dinner menus, great coffee, takeout, table reservations, and bilingual support.",
+  "name": "McMunnys Restaurant & Lounge",
+  "description": "Official website for McMunnys Restaurant & Lounge in Erickson, MB. Featuring handcrafted homestyle cooking, smash burgers, sizzling steaks, artisan roast coffee, breakfast, takeout, and community dining.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

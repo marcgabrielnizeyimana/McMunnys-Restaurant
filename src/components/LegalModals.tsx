@@ -47,19 +47,19 @@ export const LegalModals: React.FC<LegalModalsProps> = ({
             </div>
 
             <h3 className="font-display text-2xl font-black text-white mb-4">
-              McMunnys Restaurant Privacy Policy
+              McMunnys Privacy Policy
             </h3>
 
             <div className="space-y-3 text-xs sm:text-sm text-[#C2BAB0] leading-relaxed">
               <p>
                 {lang === 'en'
-                  ? 'At McMunnys Restaurant (30 Main St, Erickson, MB R0J 0P0, Canada), we respect your personal privacy. We only collect the minimal customer contact information (such as your name, telephone number, and order details) strictly necessary to process your table reservations, takeout requests, and direct inquiries.'
-                  : 'Chez McMunnys Restaurant (30 Main St, Erickson, MB R0J 0P0, Canada), nous respectons votre vie privée. Nous ne recueillons que les coordonnées minimales nécessaires pour traiter vos réservations de table, commandes à emporter et demandes directes.'}
+                  ? 'At McMunnys\'s (30 Main St, Erickson, MB R0J 0P0, Canada), we respect your personal privacy. We only collect the minimal customer contact information (such as your name, telephone number, and order details) strictly necessary to process your table reservations, takeout requests, and direct inquiries.'
+                  : 'Chez McMunnys\'s (30 Main St, Erickson, MB R0J 0P0, Canada), nous respectons votre vie privée. Nous ne recueillons que les coordonnées minimales nécessaires pour traiter vos réservations de table, commandes à emporter et demandes directes.'}
               </p>
               <p>
                 {lang === 'en'
-                  ? 'We will never sell, rent, or lease your personal information to third parties. For any inquiries regarding your data, please contact us at mcmunnys@gmail.com or call +1 (204) 636-2601.'
-                  : 'Nous ne vendrons, ne louerons ni ne divulguerons jamais vos informations personnelles à des tiers. Pour toute question, contactez-nous à mcmunnys@gmail.com ou au +1 (204) 636-2601.'}
+                  ? 'We will never sell, rent, or lease your personal information to third parties. For any inquiries regarding your data, please contact us at midnightannies@gmail.com or call +1 (204) 636-2601.'
+                  : 'Nous ne vendrons, ne louerons ni ne divulguerons jamais vos informations personnelles à des tiers. Pour toute question, contactez-nous à midnightannies@gmail.com ou au +1 (204) 636-2601.'}
               </p>
             </div>
 

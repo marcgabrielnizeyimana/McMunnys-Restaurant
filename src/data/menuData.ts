@@ -86,10 +86,10 @@ export const menuCategories: MenuCategory[] = [
 export const menuItems: MenuItem[] = [
   // Burgers & Handhelds
   {
-    id: 'burger-mcmunnys-deluxe',
+    id: 'burger-midnight-annies-deluxe',
     name: {
-      en: 'McMunnys Classic Bacon Deluxe Burger',
-      fr: 'Burger Classique Bacon Deluxe McMunnys'
+      en: 'McMunnys\'s Classic Bacon Deluxe Burger',
+      fr: 'Burger Classique Bacon Deluxe McMunnys\'s'
     },
     description: {
       en: '6oz pure Canadian beef patty, thick-cut smoked maple bacon, aged cheddar, crisp lettuce, tomato, pickles, and our signature burger sauce on toasted brioche.',
@@ -341,8 +341,8 @@ export const menuItems: MenuItem[] = [
   {
     id: 'coffee-signature-roast',
     name: {
-      en: 'McMunnys Signature Roast Coffee',
-      fr: 'Café Signature Torréfaction Maison McMunnys'
+      en: 'McMunnys\'s Signature Roast Coffee',
+      fr: 'Café Signature Torréfaction Maison McMunnys\'s'
     },
     description: {
       en: 'Our legendary house blend brewed fresh continuously throughout the day. Smooth, rich, with delicate notes of toasted hazelnut and dark cocoa. Free refills for dine-in.',

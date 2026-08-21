@@ -68,7 +68,7 @@ export const Logo: React.FC<LogoProps> = ({
           </span>
           {showTagline && (
             <span className="text-xs text-[#A0988E] font-medium mt-1">
-              Homestyle Dining &amp; Great Coffee
+              Handcrafted Fare &amp; Great Coffee
             </span>
           )}
         </div>

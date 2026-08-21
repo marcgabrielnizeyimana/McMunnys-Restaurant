@@ -11,7 +11,7 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ lang
   const t = translations[lang];
 
   const googleMapsUrl =
-    'https://www.google.com/maps/place/McMunnys+Restaurant/@50.4981293,-99.9162067,17z/data=!4m17!1m10!3m9!1s0x52e639920f7fe111:0xf1749bdda9c64906!2sMcMunnys+Restaurant!8m2!3d50.4981293!4d-99.9162067!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11ywwryvb1!3m5!1s0x52e639920f7fe111:0xf1749bdda9c64906!8m2!3d50.4981293!4d-99.9162067!16s%2Fg%2F11ywwryvb1?entry=ttu&g_ep=EgoyMDI2MDgxNi4wIKXMDSoASAFQAw%3D%3D';
+    'https://www.google.com/maps/search/?api=1&query=30+Main+St,+Erickson,+MB+R0J+0P0,+Canada';
 
   const scheduleDays = [
     { day: lang === 'en' ? 'Monday' : 'Lundi', hours: '11:00 AM – 8:00 PM', open: true },
@@ -185,7 +185,7 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ lang
               {/* Map Preview Embed */}
               <div className="relative w-full h-[380px] sm:h-[450px] bg-[#121110]">
                 <iframe
-                  title="McMunnys Restaurant Google Map"
+                  title="McMunnys Google Map"
                   src="https://maps.google.com/maps?q=50.4981293,-99.9162067&hl=en&z=16&output=embed"
                   className="w-full h-full border-0 filter contrast-110 opacity-90 hover:opacity-100 transition-opacity"
                   loading="lazy"
@@ -196,7 +196,7 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ lang
                 <div className="absolute top-4 left-4 p-3 rounded-xl bg-[#141210]/90 backdrop-blur-md border border-white/10 shadow-lg pointer-events-none">
                   <div className="flex items-center gap-2 text-white text-xs font-black uppercase">
                     <span className="w-2 h-2 rounded-full bg-[#C89B3C] animate-ping"></span>
-                    <span>McMunnys Restaurant</span>
+                    <span>McMunnys</span>
                   </div>
                   <p className="text-[10px] text-[#A0988E] mt-0.5">Erickson, Manitoba</p>
                 </div>

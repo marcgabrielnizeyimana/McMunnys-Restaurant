@@ -4,7 +4,7 @@ export const translations = {
     topbar: {
       hoursMonSat: 'Mon - Sat: 11:00 AM - 8:00 PM',
       sundayClosed: 'Sunday: Closed',
-      email: 'mcmunnys@gmail.com',
+      email: 'midnightannies@gmail.com',
       phone: '+1 (204) 636-2601',
       address: '30 Main St, Erickson, MB R0J 0P0, Canada',
       callUs: 'Call for Orders & Bookings',
@@ -18,7 +18,7 @@ export const translations = {
       menu: 'Our Menu',
       categories: 'Categories',
       gallery: 'Gallery',
-      whyUs: 'Why McMunnys',
+      whyUs: 'Why McMunnys\'s',
       reviews: 'Reviews',
       faq: 'FAQ',
       location: 'Location & Hours',
@@ -29,11 +29,11 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: 'Welcome to McMunnys Restaurant',
-      tagline: 'Hearty Homestyle Flavours in Erickson, MB',
-      title1: 'DELICIOUS FOOD FOR',
-      title2: 'A WARM & COZY LIFE',
-      subtitle: 'Experience authentic Canadian homestyle cooking, savory charbroiled steaks, gourmet burgers, crisp salads, decadent desserts, and our legendary fresh-brewed artisan coffee.',
+      badge: 'Welcome to McMunnys\'s',
+      tagline: 'Handcrafted Flavours & Warm Dining in Erickson, MB',
+      title1: 'DELICIOUS CRAFT FARE FOR',
+      title2: 'A WARM & MEMORABLE TIME',
+      subtitle: 'Experience authentic homestyle cooking, savory charbroiled steaks, signature burgers, crisp salads, decadent desserts, and our legendary fresh-brewed artisan coffee.',
       bookTableBtn: 'Book a Table',
       viewMenuBtn: 'Explore Full Menu',
       getDirectionsBtn: 'Get Directions',
@@ -49,15 +49,15 @@ export const translations = {
         satisfaction: '5-Star Loved in Erickson'
       }
     },
-    // About Section (matching the Delish screenshot reference)
+    // About Section
     about: {
-      badge: 'ABOUT MCMUNNYS',
+      badge: 'ABOUT MIDNIGHT ANNIE\'S',
       heading: 'DELICIOUS FOOD FOR HEALTHY & HAPPY LIVING',
-      story1: 'Nestled in the heart of Erickson, Manitoba, McMunnys Restaurant is a beloved gathering place for locals, travelers exploring the Riding Mountain region, and food enthusiasts seeking genuine homestyle comfort.',
+      story1: 'Nestled in the heart of Erickson, Manitoba, McMunnys\'s is a beloved gathering place for locals, travelers exploring the Riding Mountain region, and food enthusiasts seeking genuine homestyle comfort.',
       story2: 'From sizzling hot grills and tender savory meats to crisp salads and golden fries, every plate is crafted with passion, quality ingredients, and welcoming country hospitality.',
       features: [
         {
-          title: 'QUALITY HOMESTYLE FOOD',
+          title: 'QUALITY HANDCRAFTED FOOD',
           description: 'Hearty portions made fresh to order with prime Canadian beef, crisp produce, and handcrafted seasoning.'
         },
         {
@@ -71,16 +71,16 @@ export const translations = {
       ],
       readMore: 'OUR STORY & HERITAGE',
       modalTitle: 'Our Heritage & Philosophy',
-      modalText: 'At McMunnys, our mission is simple: provide a comfortable, welcoming oasis where anyone can pull up a chair and enjoy a delicious, honest meal. Whether you are grabbing a quick solo lunch, enjoying dinner with your extended family, or refueling with our famous coffee on a road trip, our doors are always open with a warm smile and great food.'
+      modalText: 'At McMunnys\'s, our mission is simple: provide a comfortable, welcoming oasis where anyone can pull up a chair and enjoy a delicious, honest meal. Whether you are grabbing a quick solo lunch, enjoying dinner with your extended family, or refueling with our famous coffee on a road trip, our doors are always open with a warm smile and great food.'
     },
-    // Discover Our Categories (Delish reference)
+    // Discover Our Categories
     categories: {
       badge: 'DISCOVER FOOD',
       heading: 'DISCOVER OUR CATEGORIES',
       subtitle: 'From hearty charbroiled mains and juicy gourmet burgers to fresh brewed coffee and sweet desserts, explore our kitchen creations.',
       viewCategory: 'View Menu Items'
     },
-    // Food Gallery (Delish reference)
+    // Food Gallery
     gallery: {
       badge: 'FOOD GALLERY',
       heading: 'FOOD GALLERY SHOWCASE',
@@ -115,10 +115,10 @@ export const translations = {
       taxNote: 'Prices in CAD. Applicable taxes not included. Please inform our team of any food allergies.',
       cartNotice: 'Item added to your order summary!'
     },
-    // Call to action banner (Delish reference: "NEED A TABLE ON COFFEE HOUSE")
+    // Call to action banner
     cta: {
       badge: 'BOOK A TABLE FOR YOUR FAMILY & FRIENDS',
-      heading: 'NEED A TABLE AT MCMUNNYS RESTAURANT?',
+      heading: 'NEED A TABLE AT MIDNIGHT ANNIE\'S?',
       subtitle: 'Planning a family lunch, group dinner, or special gathering? Reserve your table in advance or give us a quick call!',
       bookBtn: 'BOOK A TABLE',
       callBtn: 'CALL +1 (204) 636-2601',
@@ -127,7 +127,7 @@ export const translations = {
     // Why Choose Us
     whyUs: {
       badge: 'WHY CHOOSE US',
-      heading: 'WHAT MAKES MCMUNNYS SPECIAL',
+      heading: 'WHAT MAKES MIDNIGHT ANNIE\'S SPECIAL',
       items: [
         {
           title: 'Legendary Coffee',
@@ -181,7 +181,7 @@ export const translations = {
     },
     // Reservation Modal
     reservation: {
-      title: 'Reserve a Table at McMunnys',
+      title: 'Reserve a Table at McMunnys\'s',
       subtitle: 'Fill out the form below or call us directly at +1 (204) 636-2601 for instant bookings.',
       fullName: 'Full Name',
       email: 'Email Address',
@@ -223,7 +223,7 @@ export const translations = {
     // Contact Form
     contact: {
       badge: 'GET IN TOUCH',
-      heading: 'CONTACT MCMUNNYS RESTAURANT',
+      heading: 'CONTACT MIDNIGHT ANNIE\'S',
       subtitle: 'Have a question about large group bookings, private events, or special catering requests? Send us a message.',
       name: 'Your Name',
       email: 'Your Email',
@@ -233,12 +233,12 @@ export const translations = {
       sendBtn: 'Send Message',
       sending: 'Sending Message...',
       successTitle: 'Message Sent Successfully!',
-      successMsg: 'Thank you for reaching out to McMunnys. We will get back to you shortly.',
+      successMsg: 'Thank you for reaching out to McMunnys\'s. We will get back to you shortly.',
       followUs: 'Connect with Us on Social Media'
     },
     // Footer
     footer: {
-      description: 'McMunnys Restaurant is Erickson\'s friendly destination for delicious homestyle meals, charbroiled steaks, juicy burgers, crisp salads, and great coffee. Serving Manitoba locals and travelers with pride.',
+      description: 'McMunnys\'s is Erickson\'s friendly destination for delicious homestyle meals, charbroiled steaks, juicy burgers, crisp salads, and great coffee. Serving Manitoba locals and travelers with pride.',
       quickLinks: 'Quick Links',
       menuHighlights: 'Menu Highlights',
       contactInfo: 'Contact Information',
@@ -247,7 +247,7 @@ export const translations = {
       newsletterPlaceholder: 'Enter your email address',
       subscribeBtn: 'Subscribe',
       subscribedMsg: 'Thank you for subscribing!',
-      copyright: 'All rights reserved © 2026 McMunnys Restaurant.',
+      copyright: 'All rights reserved © 2026 McMunnys\'s.',
       terms: 'Terms of Use',
       privacy: 'Privacy Policy',
       accessibility: 'Accessibility Statement'
@@ -255,7 +255,7 @@ export const translations = {
     // Modals
     privacyModal: {
       title: 'Privacy Policy',
-      content: 'At McMunnys Restaurant, we respect your personal privacy. When you use our reservation and contact forms, we collect your name, phone number, and email solely to confirm your booking and fulfill your order requests. We do not sell or distribute your data to third parties.'
+      content: 'At McMunnys\'s, we respect your personal privacy. When you use our reservation and contact forms, we collect your name, phone number, and email solely to confirm your booking and fulfill your order requests. We do not sell or distribute your data to third parties.'
     },
     termsModal: {
       title: 'Terms of Service',
@@ -267,7 +267,7 @@ export const translations = {
     topbar: {
       hoursMonSat: 'Lun - Sam : 11h00 - 20h00',
       sundayClosed: 'Dimanche : Fermé',
-      email: 'mcmunnys@gmail.com',
+      email: 'midnightannies@gmail.com',
       phone: '+1 (204) 636-2601',
       address: '30 Main St, Erickson, MB R0J 0P0, Canada',
       callUs: 'Appelez pour commandes et réservations',
@@ -281,7 +281,7 @@ export const translations = {
       menu: 'Notre Menu',
       categories: 'Catégories',
       gallery: 'Galerie',
-      whyUs: 'Pourquoi McMunnys',
+      whyUs: 'Pourquoi McMunnys\'s',
       reviews: 'Avis',
       faq: 'FAQ',
       location: 'Emplacement & Horaires',
@@ -292,11 +292,11 @@ export const translations = {
     },
     // Hero
     hero: {
-      badge: 'Bienvenue au Restaurant McMunnys',
-      tagline: 'Saveurs Maison et Chaleureuses à Erickson, MB',
+      badge: 'Bienvenue chez McMunnys\'s',
+      tagline: 'Saveurs Artisanales et Ambiance Chaleureuse à Erickson, MB',
       title1: 'UNE NOURRITURE DÉLICIEUSE',
       title2: 'POUR UNE VIE AGRÉABLE ET CHALEUREUSE',
-      subtitle: 'Découvrez une cuisine maison canadienne authentique, des steaks grillés savoureux, des burgers gourmets, des salades fraîches, des desserts décadents et notre café artisanal réputé.',
+      subtitle: 'Découvrez une cuisine maison authentique, des steaks grillés savoureux, des burgers gourmets, des salades fraîches, des desserts décadents et notre café artisanal réputé.',
       bookTableBtn: 'Réserver une Table',
       viewMenuBtn: 'Voir le Menu Complet',
       getDirectionsBtn: 'Obtenir l\'Itinéraire',
@@ -314,9 +314,9 @@ export const translations = {
     },
     // About Section
     about: {
-      badge: 'À PROPOS DE MCMUNNYS',
+      badge: 'À PROPOS DE MIDNIGHT ANNIE\'S',
       heading: 'UNE CUISINE DÉLICIEUSE POUR UNE VIE SAINE ET HEUREUSE',
-      story1: 'Niché au cœur d\'Erickson, au Manitoba, le restaurant McMunnys est le lieu de rassemblement préféré des résidents locaux, des voyageurs explorant le parc du Mont-Riding et des amateurs de bonne cuisine maison.',
+      story1: 'Niché au cœur d\'Erickson, au Manitoba, McMunnys\'s est le lieu de rassemblement préféré des résidents locaux, des voyageurs explorant le parc du Mont-Riding et des amateurs de bonne cuisine maison.',
       story2: 'Des grillades crépitantes aux viandes tendres et savoureuses, en passant par nos salades croustillantes et nos frites dorées, chaque plat est préparé avec passion, ingrédients de qualité et un accueil chaleureux.',
       features: [
         {
@@ -334,7 +334,7 @@ export const translations = {
       ],
       readMore: 'NOTRE HISTOIRE & TRADITION',
       modalTitle: 'Notre Histoire & Philosophie',
-      modalText: 'Chez McMunnys, notre mission est simple : offrir un lieu confortable et convivial où chacun peut savourer un repas savoureux et réconfortant. Que vous veniez pour un déjeuner rapide en solo, un dîner en famille ou une pause café lors d\'un voyage, nous vous accueillons toujours avec le sourire.'
+      modalText: 'Chez McMunnys\'s, notre mission est simple : offrir un lieu confortable et convivial où chacun peut savourer un repas savoureux et réconfortant. Que vous veniez pour un déjeuner rapide en solo, un dîner en famille ou une pause café lors d\'un voyage, nous vous accueillons toujours avec le sourire.'
     },
     // Discover Our Categories
     categories: {
@@ -381,7 +381,7 @@ export const translations = {
     // Call to action
     cta: {
       badge: 'RÉSERVEZ UNE TABLE POUR VOS PROCHES ET AMIS',
-      heading: 'BESOIN D\'UNE TABLE AU RESTAURANT MCMUNNYS ?',
+      heading: 'BESOIN D\'UNE TABLE CHEZ MIDNIGHT ANNIE\'S ?',
       subtitle: 'Vous prévoyez un repas en famille, un groupe ou un événement ? Réservez votre table à l\'avance ou contactez-nous directement !',
       bookBtn: 'RÉSERVER UNE TABLE',
       callBtn: 'APPELER +1 (204) 636-2601',
@@ -390,7 +390,7 @@ export const translations = {
     // Why Choose Us
     whyUs: {
       badge: 'POURQUOI NOUS CHOISIR',
-      heading: 'CE QUI REND MCMUNNYS UNIQUE',
+      heading: 'CE QUI REND MIDNIGHT ANNIE\'S UNIQUE',
       items: [
         {
           title: 'Café Légendaire',
@@ -444,7 +444,7 @@ export const translations = {
     },
     // Reservation Modal
     reservation: {
-      title: 'Réserver une Table chez McMunnys',
+      title: 'Réserver une Table chez McMunnys\'s',
       subtitle: 'Remplissez le formulaire ci-dessous ou appelez-nous au +1 (204) 636-2601.',
       fullName: 'Nom Complet',
       email: 'Adresse Courriel',
@@ -486,7 +486,7 @@ export const translations = {
     // Contact Form
     contact: {
       badge: 'CONTACTEZ-NOUS',
-      heading: 'CONTACTER LE RESTAURANT MCMUNNYS',
+      heading: 'CONTACTER MIDNIGHT ANNIE\'S',
       subtitle: 'Une question sur les repas de groupe ou des demandes spéciales ? Envoyez-nous un message.',
       name: 'Votre Nom',
       email: 'Votre Courriel',
@@ -496,12 +496,12 @@ export const translations = {
       sendBtn: 'Envoyer le Message',
       sending: 'Envoi du message...',
       successTitle: 'Message Envoyé avec Succès !',
-      successMsg: 'Merci d\'avoir contacté McMunnys. Nous vous répondrons dans les plus brefs délais.',
+      successMsg: 'Merci d\'avoir contacté McMunnys\'s. Nous vous répondrons dans les plus brefs délais.',
       followUs: 'Rejoignez-nous sur les réseaux sociaux'
     },
     // Footer
     footer: {
-      description: 'Le restaurant McMunnys est la destination conviviale d\'Erickson pour des repas maison savoureux, des steaks grillés, des burgers généreux et un café exceptionnel. Fier de servir le Manitoba.',
+      description: 'McMunnys\'s est la destination conviviale d\'Erickson pour des repas maison savoureux, des steaks grillés, des burgers généreux et un café exceptionnel. Fier de servir le Manitoba.',
       quickLinks: 'Liens Rapides',
       menuHighlights: 'Spécialités du Menu',
       contactInfo: 'Informations de Contact',
@@ -510,7 +510,7 @@ export const translations = {
       newsletterPlaceholder: 'Entrez votre adresse courriel',
       subscribeBtn: 'S\'abonner',
       subscribedMsg: 'Merci de votre inscription !',
-      copyright: 'Tous droits réservés © 2026 Restaurant McMunnys.',
+      copyright: 'Tous droits réservés © 2026 McMunnys\'s.',
       terms: 'Conditions d\'Utilisation',
       privacy: 'Politique de Confidentialité',
       accessibility: 'Déclaration d\'Accessibilité'
@@ -518,7 +518,7 @@ export const translations = {
     // Modals
     privacyModal: {
       title: 'Politique de Confidentialité',
-      content: 'Chez McMunnys, nous respectons votre vie privée. Les données récoltées via nos formulaires sont utilisées exclusivement pour gérer vos réservations et commandes à emporter. Nous ne vendons ni ne transmettons aucune information à des tiers.'
+      content: 'Chez McMunnys\'s, nous respectons votre vie privée. Les données récoltées via nos formulaires sont utilisées exclusivement pour gérer vos réservations et commandes à emporter. Nous ne vendons ni ne transmettons aucune information à des tiers.'
     },
     termsModal: {
       title: 'Conditions d\'Utilisation',

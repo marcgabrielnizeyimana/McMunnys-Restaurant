@@ -8,8 +8,8 @@ export const faqItems: FaqItem[] = [
       fr: 'Quels sont vos horaires et jours d\'ouverture ?'
     },
     answer: {
-      en: 'McMunnys Restaurant is open Monday through Saturday from 11:00 AM to 8:00 PM for lunch and dinner service. We are closed on Sundays to allow our dedicated culinary team to rest with family.',
-      fr: 'Le restaurant McMunnys est ouvert du lundi au samedi de 11h00 à 20h00 pour les services du midi et du soir. Nous sommes fermés le dimanche.'
+      en: 'McMunnys\'s is open Monday through Saturday from 11:00 AM to 8:00 PM for lunch and dinner service. We are closed on Sundays to allow our dedicated culinary team to rest with family.',
+      fr: 'McMunnys\'s est ouvert du lundi au samedi de 11h00 à 20h00 pour les services du midi et du soir. Nous sommes fermés le dimanche.'
     },
     category: 'general'
   },
@@ -28,8 +28,8 @@ export const faqItems: FaqItem[] = [
   {
     id: 'faq-3',
     question: {
-      en: 'Is McMunnys Restaurant wheelchair accessible?',
-      fr: 'Le restaurant McMunnys est-il accessible aux personnes à mobilité réduite ?'
+      en: 'Is McMunnys\'s wheelchair accessible?',
+      fr: 'McMunnys\'s est-il accessible aux personnes à mobilité réduite ?'
     },
     answer: {
       en: 'Yes, absolutely. We have designated wheelchair-accessible parking, a step-free entrance ramp, spacious seating aisles, and clean accessible public restrooms.',
@@ -52,8 +52,8 @@ export const faqItems: FaqItem[] = [
   {
     id: 'faq-5',
     question: {
-      en: 'Where can I park when visiting McMunnys in Erickson?',
-      fr: 'Où puis-je me garer lors de ma visite à Erickson ?'
+      en: 'Where can I park when visiting McMunnys\'s in Erickson?',
+      fr: 'Où puis-je me garer lors de ma visite chez McMunnys\'s à Erickson ?'
     },
     answer: {
       en: 'We have free on-site parking stalls as well as ample free street parking directly along Main St in Erickson, MB. Parking is convenient and hassle-free even during peak lunch and dinner hours.',

@@ -22,14 +22,14 @@ import { Phone, ChevronUp, ShoppingBag } from 'lucide-react';
 export function App() {
   // 1. Language state with localStorage support (Default: English)
   const [lang, setLang] = useState<Language>(() => {
-    const saved = localStorage.getItem('mcmunnys_lang');
+    const saved = localStorage.getItem('midnight_annies_lang') || localStorage.getItem('mcmunnys_lang');
     return (saved === 'fr' ? 'fr' : 'en') as Language;
   });
 
   const toggleLanguage = () => {
     setLang((prev) => {
       const next = prev === 'en' ? 'fr' : 'en';
-      localStorage.setItem('mcmunnys_lang', next);
+      localStorage.setItem('midnight_annies_lang', next);
       return next;
     });
   };
@@ -37,7 +37,7 @@ export function App() {
   // 2. Cart & Takeout State
   const [cartItems, setCartItems] = useState<CartItem[]>(() => {
     try {
-      const saved = localStorage.getItem('mcmunnys_cart');
+      const saved = localStorage.getItem('midnight_annies_cart') || localStorage.getItem('mcmunnys_cart');
       return saved ? JSON.parse(saved) : [];
     } catch {
       return [];
@@ -46,7 +46,7 @@ export function App() {
 
   useEffect(() => {
     try {
-      localStorage.setItem('mcmunnys_cart', JSON.stringify(cartItems));
+      localStorage.setItem('midnight_annies_cart', JSON.stringify(cartItems));
     } catch {}
   }, [cartItems]);
 
@@ -220,7 +220,7 @@ export function App() {
         <a
           id="floating-call-btn"
           href="tel:+12046362601"
-          aria-label="Call McMunnys Restaurant"
+          aria-label="Call McMunnys"
           className="w-12 h-12 rounded-full bg-[#C89B3C] hover:bg-[#D4A745] text-[#121110] shadow-xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all"
         >
           <Phone className="w-5 h-5 fill-current" />

@@ -56,7 +56,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenPrivacy, onOpenTerms
             <div className="flex items-center gap-3 pt-2">
               <a
                 id="footer-facebook-btn"
-                href="https://www.facebook.com/mcmunnys/"
+                href="https://www.facebook.com/search/top?q=Midnight%20Annie%27s"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -76,7 +76,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenPrivacy, onOpenTerms
 
               <a
                 id="footer-email-btn"
-                href="mailto:mcmunnys@gmail.com"
+                href="mailto:midnightannies@gmail.com"
                 aria-label="Email"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#D4A745] text-white flex items-center justify-center transition-colors duration-200"
               >

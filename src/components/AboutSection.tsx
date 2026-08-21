@@ -129,7 +129,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ lang }) => {
               >
                 <img
                   src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop"
-                  alt="Sizzling steak and fresh side skewers at McMunnys Restaurant"
+                  alt="Sizzling steak and fresh side skewers at McMunnys"
                   className="w-full h-[420px] sm:h-[500px] object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out"
                 />
 

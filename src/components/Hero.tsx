@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenReservation }) => {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop"
-          alt="McMunnys Restaurant Interior Atmosphere"
+          alt="McMunnys Interior Atmosphere"
           className="w-full h-full object-cover object-center opacity-25 filter brightness-75 scale-105 transition-transform duration-1000 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#121110] via-[#121110]/80 to-transparent"></div>

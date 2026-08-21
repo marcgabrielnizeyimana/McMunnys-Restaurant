@@ -69,7 +69,7 @@ export const TopBar: React.FC<TopBarProps> = ({ lang, onToggleLang }) => {
             id="topbar-phone-link"
             href="tel:+12046362601"
             className="flex items-center gap-1.5 hover:text-white transition-colors duration-200"
-            title="Call McMunnys Restaurant"
+            title="Call McMunnys"
           >
             <Phone className="w-3.5 h-3.5 text-[#C89B3C]" />
             <span className="font-semibold text-[#E8E2D9]">{t.topbar.phone}</span>
